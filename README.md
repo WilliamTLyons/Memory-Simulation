@@ -1,6 +1,6 @@
 # Memory Simulation
 
-A Python-based graphical simulation of memory cell evolution, built using `tkinter` and `numpy`. This project visualizes how memory cells in a 21x21 grid (441 cells) transition between states—New, Normal, Defective, and Aged—over time, based on probabilistic rules and neighbor influences. Inspired by cellular automata like Conway’s Game of Life, it offers an interactive way to explore memory degradation, repair dynamics, and resource maintenance in a simplified model.
+A Python-based GUI simulation of memory cell evolution, built with `tkinter` and `NumPy`. Inspired by cellular automata like Conway’s Game of Life, it models memory degradation and repair in an interactive 21x21 grid—perfect for exploring system dynamics!
 
 ## Project Overview
 
