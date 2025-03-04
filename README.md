@@ -58,14 +58,13 @@ The simulation represents a disk’s memory as a 21x21 grid of cells, rendered w
   - `get_neighbors`/`get_new_state`: Implements state transition logic.
 
 ## Screenshots
-Initial state: All cells new (dark green):
 
+- Initial state: All cells new (dark green):
 <img width="600" alt="Screenshot 2025-03-04 at 9 04 23 AM" src="https://github.com/user-attachments/assets/f4facd36-7c0a-4731-8151-b37b1ec2165d" />
 
-** ** 
+** **
 
-After 100 iterations: Mixed states with defective (red) spread:
-
+- After 100 iterations: Mixed states with defective (red) spread:
 <img width="600" alt="Screenshot 2025-03-04 at 9 07 32 AM" src="https://github.com/user-attachments/assets/57ab10a0-81f8-402b-9220-8872f880861b" />
 
 ** **
@@ -83,3 +82,10 @@ After 100 iterations: Mixed states with defective (red) spread:
 To run the simulation locally:
 1. **Ensure Python 3.5+**: The script requires a Python version with `tkinter` support (download from [python.org](https://www.python.org/downloads/) if needed).
 2. **Install NumPy**: Open a terminal and run:
+```bash
+pip install numpy
+```
+3. **Run the Script**: Navigate to the project directory and execute:
+```bash
+python memory_sim.py
+```
